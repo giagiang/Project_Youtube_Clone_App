@@ -6,9 +6,11 @@ import Videos from "./Videos";
 
 const Feed = () => {
   const [selectedCategory, setSelectedCategory] = useState("New");
-  const [videos,setVideos] = useState([])
+  const [videos, setVideos] = useState([]);
   useEffect(() => {
-    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`) .then((data)=> setVideos(data.items))
+    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data) =>
+      setVideos(data.items)
+    );
   }, [selectedCategory]);
   return (
     <Stack sx={{ flexDirection: { sx: "column", md: "row" } }}>
@@ -19,9 +21,9 @@ const Feed = () => {
           px: { sx: 0, md: 2 },
         }}
       >
-        <Sidebar 
-          selectedCategory = {selectedCategory}
-          setSelectedCategory = {setSelectedCategory}
+        <Sidebar
+          selectedCategory={selectedCategory}
+          setSelectedCategory={setSelectedCategory}
         />
         <Typography
           className="copyright"
@@ -40,11 +42,10 @@ const Feed = () => {
         >
           {selectedCategory} <span style={{ color: "red" }}>videos</span>
         </Typography>
-        <Videos videos = {videos} />
+        <Videos videos={videos} />
       </Box>
     </Stack>
   );
 };
 
 export default Feed;
- 
