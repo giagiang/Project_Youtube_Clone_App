@@ -33,7 +33,7 @@ const Feed = () => {
           Copyright by Ronnie Ric G
         </Typography>
       </Box>
-      <Box>
+      <Box p={2} sx= {{overFlowY :'auto', height: '90vh' ,flex: 2 }}>
         <Typography
           variant="h4"
           fontWeight="bold"

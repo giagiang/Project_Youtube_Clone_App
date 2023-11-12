@@ -16,7 +16,7 @@ const VideoCard = ({
     snippet,
   },
 }) => {
-  console.log("props in videosCard", { videoId, snippet });
+  // console.log("props in videosCard", { videoId, snippet });
   return (
     <Card sx= {{width: {md: '300px', xs : '100%'}, boxShadow: 'none', borderRadius : 3}}>
       <Link to={videoId ? `./video/${videoId}` : demoVideoUrl}>
