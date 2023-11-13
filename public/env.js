@@ -17,7 +17,7 @@ window.env = {
   "USER": "legiagiang",
   "COMMAND_MODE": "unix2003",
   "npm_config_globalconfig": "/usr/local/etc/npmrc",
-  "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.S0z8KaUVJN/Listeners",
+  "SSH_AUTH_SOCK": "/private/tmp/com.apple.launchd.6yP3U5kUQE/Listeners",
   "__CF_USER_TEXT_ENCODING": "0x1F5:0x0:0x0",
   "npm_execpath": "/usr/local/lib/node_modules/npm/bin/npm-cli.js",
   "PATH": "/Users/legiagiang/repos/youtube_clone_app/node_modules/.bin:/Users/legiagiang/repos/node_modules/.bin:/Users/legiagiang/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/usr/local/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/Users/legiagiang/.rbenv/shims:/Users/legiagiang/.pyenv/shims:/usr/local/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:~/.dotnet/tools:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/legiagiang/.rbenv/shims:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin",
