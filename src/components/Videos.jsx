@@ -11,9 +11,11 @@ const Videos = ({ videos, direction }) => {
       flexWrap="wrap"
       justifyContent="start"
       gap={2}
+      data-testid="videos-container"
     >
       {videos.map((item, idx) => (
         <Box key={idx}>
+          data-testid="video-card"
           {item.id.videoId && <VideoCard video={item} />}
           {item.id.channelId && <ChannelCard channelDetail={item} />}
           {/* {console.log("channel Id :", item.id.channelId)} */}
